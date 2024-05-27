@@ -51,7 +51,7 @@
             </li>
           </ul>
         </address>
-        <button class="mobile-menu-open" type="button">
+        <button class="mobile-menu-open" type="button" id="my-button-open">
           <svg
             class="mobile-menu-open-icon"
             aria-label="mobile-menu-open"
@@ -63,9 +63,9 @@
           </svg>
         </button>
 
-         <div class="mobile-container is-hidden">
+         <div class="mobile-container"  id="my-modal">
           <div class="mobile-menu">
-            <button class="mobile-menu-button" type="button">
+            <button class="mobile-menu-button" type="button" id="modal-button-close">
               <svg
                 class="mobile-close-icon"
                 aria-label="mobile-menu-close"
@@ -147,7 +147,7 @@
       <section class="hero hero-bg-image">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
-          <button class="hero-button" type="button" data-modal-open>
+          <button class="hero-button" type="button" data-modal-open  id="my-down-button-open">
             Order Service
           </button>
         </div>
@@ -864,9 +864,9 @@
     </footer>
 
 
-<div class="container-modal-window is-hidden">
+<div class="container-modal-window"     id="my-down-modal">
       <div class="modal-window">
-        <button type="button" class="modal-btn">
+        <button type="button" class="modal-btn" id="modal-down-button-close">
           <svg class="icon-close" width="8" height="8">
             <use href="./images/icons.svg#icon-modal-close"></use>
           </svg>
@@ -948,6 +948,7 @@ Text input</textarea
         </form>
       </div>
     </div>
+    <script type="module" src="./css/js/main.js"></script>
   </body>
 </html>
 
